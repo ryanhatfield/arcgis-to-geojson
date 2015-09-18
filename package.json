@@ -1,0 +1,26 @@
+{
+  "name": "gis-to-geojson",
+  "version": "0.1.0",
+  "description": "Convert GIS endpoint to the GeoJSON format",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanhatfield/gis-to-geojson.git"
+  },
+  "keywords": [
+    "GIS",
+    "KML",
+    "GeoJSON",
+    "Civic",
+    "Data"
+  ],
+  "author": "Ryan Hatfield",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ryanhatfield/gis-to-geojson/issues"
+  },
+  "homepage": "https://github.com/ryanhatfield/gis-to-geojson#readme"
+}
