@@ -1,26 +1,30 @@
 {
-  "name": "gis-to-geojson",
-  "version": "0.1.0",
-  "description": "Convert GIS endpoint to the GeoJSON format",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "name": "arcgis-to-geojson",
+  "version": "1.0.0",
+  "description": "Download and convert an ArcGIS REST services endpoint to GeoJSON files",
+  "bin": {
+      "arcgisToGeoJSON": "./arcgis-to-geojson.sh"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ryanhatfield/gis-to-geojson.git"
+    "url": "git+https://github.com/ryanhatfield/arcgis-to-geojson.git"
   },
   "keywords": [
     "GIS",
     "KML",
     "GeoJSON",
     "Civic",
-    "Data"
+    "Data",
+    "ArcGIS"
   ],
   "author": "Ryan Hatfield",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ryanhatfield/gis-to-geojson/issues"
+    "url": "https://github.com/ryanhatfield/arcgis-to-geojson/issues"
   },
-  "homepage": "https://github.com/ryanhatfield/gis-to-geojson#readme"
+  "homepage": "https://github.com/ryanhatfield/arcgis-to-geojson#readme",
+  "dependencies": {
+    "JSON.sh": "^0.1.9",
+    "togeojson": "^0.13.0"
+  }
 }
