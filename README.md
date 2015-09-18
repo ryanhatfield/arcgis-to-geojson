@@ -6,6 +6,10 @@ Assuming you have Node.js installed, you can install with NPM
 
 ```npm install -g arcgis-to-geojson```
 
+## Download (Alternate install)
+
+You don't need to install the npm package, you can just download the latest release version.
+
 ## Usage
 
 ```arcGisToJSON http://gis.cityoffargo.com/arcgis/rest/services```
