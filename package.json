@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Download and convert an ArcGIS REST services endpoint to GeoJSON files",
   "bin": {
-      "arcgisToGeoJSON": "./arcgis-to-geojson.sh"
+      "arcGisToGeoJSON": "./arcgis-to-geojson.sh"
   },
   "repository": {
     "type": "git",
