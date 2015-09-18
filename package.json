@@ -1,6 +1,6 @@
 {
   "name": "arcgis-to-geojson",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Download and convert an ArcGIS REST services endpoint to GeoJSON files",
   "bin": {
       "arcGisToGeoJSON": "./arcgis-to-geojson.sh"

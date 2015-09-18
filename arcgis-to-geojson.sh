@@ -1,7 +1,8 @@
 #!/bin/bash
 
-jsonConvert="${BASH_SOURCE[0]}/../JSON.sh/JSON.sh -b"
-geoJsonConvert="${BASH_SOURCE[0]}/../togeojson/togeojson" 
+nodePrefix=$(npm config get prefix)
+jsonConvert="$nodePrefix/lib/node_modules/JSON.sh/JSON.sh -b"
+geoJsonConvert="$nodePrefix/lib/node_modules/togeojson/togeojson" 
 foldersUrl="$1"
 
 mkdir -p services
