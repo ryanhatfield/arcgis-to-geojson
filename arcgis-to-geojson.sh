@@ -2,8 +2,9 @@
 
 packageName="arcgis-to-geojson"
 nodePrefix=$(npm config get prefix)
-jsonConvert="$nodePrefix/lib/node_modules/$packageName/node_modules/JSON.sh/JSON.sh -b"
-geoJsonConvert="$nodePrefix/lib/node_modules/$packageName/node_modules/togeojson/togeojson" 
+packagePrefix=$([ -d node_module ] && echo "./node_modules" || echo "$nodePrefix/lib/node_modules/")
+jsonConvert="$packagePrefix/$packageName/node_modules/JSON.sh/JSON.sh -b"
+geoJsonConvert="$packagePrefix/$packageName/node_modules/togeojson/togeojson" 
 foldersUrl="$1"
 
 mkdir -p services
