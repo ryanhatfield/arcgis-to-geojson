@@ -4,11 +4,11 @@
 
 Assuming you have Node.js installed, you can install with NPM
 
-   npm install -g arcgis-to-geojson
+```npm install -g arcgis-to-geojson```
 
 ## Usage
 
-   arcGisToJSON http://gis.cityoffargo.com/arcgis/rest/services
+```arcGisToJSON http://gis.cityoffargo.com/arcgis/rest/services```
 
 Running the above command will result in the following folder structure:
 
