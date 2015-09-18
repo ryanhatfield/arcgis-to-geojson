@@ -1,7 +1,7 @@
 #!/bin/bash
 
-jsonConvert="./node_modules/JSON.sh/JSON.sh -b"
-geoJsonConvert="./node_modules/togeojson/togeojson" 
+jsonConvert="${BASH_SOURCE[0]}/../JSON.sh/JSON.sh -b"
+geoJsonConvert="${BASH_SOURCE[0]}/../togeojson/togeojson" 
 foldersUrl="$1"
 
 mkdir -p services
